@@ -1,0 +1,25 @@
+{
+  "name": "literate-pancake",
+  "version": "1.0.0",
+  "description": "Tier ranking app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "node server.js",
+    "test": "uvx pytest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.0.0-pre.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.4"
+  }
+}
