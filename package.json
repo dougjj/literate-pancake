@@ -1,0 +1,24 @@
+{
+  "name": "literate-pancake",
+  "version": "1.0.0",
+  "description": "Tier ranking web app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "uvx pytest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
